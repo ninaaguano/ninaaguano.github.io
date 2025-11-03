@@ -6,7 +6,8 @@ body {
 }
 
 .cv-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 30% 1fr;
   max-width: 1100px;
   margin: 40px auto;
   background: white;
@@ -19,8 +20,8 @@ body {
 .sidebar {
   background: white; 
   color: #230d50; 
-  width: 30%;
-  padding: 40px 25px;
+  width: 100%;
+    text-align: center;
 }
 
 .sidebar h1 {
@@ -37,15 +38,6 @@ body {
   color: #0f0d80;
 }
 
-.photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 20px;
-  border: 3px solid white;
-}
 
 .sidebar h2 {
   font-size: 1.1em;
@@ -70,8 +62,9 @@ body {
 
 .content {
   padding: 40px;
-  width: 70%;
+  width: 100%;
   background: white;
+ 
 }
 
 .content h2 {
