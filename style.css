@@ -141,6 +141,10 @@ body {
 .menu li.c8:hover a {
  color: rgb(218, 15, 15);
 }
+.menu li.c9:hover a {
+ color: rgb(218, 15, 188);
+}
+
 
 
 
